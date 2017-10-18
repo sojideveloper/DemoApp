@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84276381F95D1B200124F5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84276371F95D1B200124F5D /* LoginViewController.swift */; };
 		D8929FBB1F90CC08003CEE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8929FBA1F90CC08003CEE14 /* AppDelegate.swift */; };
-		D8929FBD1F90CC08003CEE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8929FBC1F90CC08003CEE14 /* ViewController.swift */; };
 		D8929FC01F90CC08003CEE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8929FBE1F90CC08003CEE14 /* Main.storyboard */; };
 		D8929FC31F90CC08003CEE14 /* DemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8929FC11F90CC08003CEE14 /* DemoApp.xcdatamodeld */; };
 		D8929FC51F90CC08003CEE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8929FC41F90CC08003CEE14 /* Assets.xcassets */; };
@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D84276371F95D1B200124F5D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8929FB71F90CC08003CEE14 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8929FBA1F90CC08003CEE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8929FBC1F90CC08003CEE14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8929FBF1F90CC08003CEE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8929FC21F90CC08003CEE14 /* DemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoApp.xcdatamodel; sourceTree = "<group>"; };
 		D8929FC41F90CC08003CEE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,11 +99,11 @@
 		D8929FB91F90CC08003CEE14 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D8929FEB1F90CC17003CEE14 /* Models */,
+				D8929FEC1F90CC22003CEE14 /* Views */,
+				D8929FED1F90CC2A003CEE14 /* Controllers */,
 				D8929FBA1F90CC08003CEE14 /* AppDelegate.swift */,
-				D8929FBC1F90CC08003CEE14 /* ViewController.swift */,
-				D8929FBE1F90CC08003CEE14 /* Main.storyboard */,
 				D8929FC41F90CC08003CEE14 /* Assets.xcassets */,
-				D8929FC61F90CC08003CEE14 /* LaunchScreen.storyboard */,
 				D8929FC91F90CC08003CEE14 /* Info.plist */,
 				D8929FC11F90CC08003CEE14 /* DemoApp.xcdatamodeld */,
 			);
@@ -126,6 +126,38 @@
 				D8929FDF1F90CC08003CEE14 /* Info.plist */,
 			);
 			path = DemoAppUITests;
+			sourceTree = "<group>";
+		};
+		D8929FEB1F90CC17003CEE14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8929FEC1F90CC22003CEE14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8929FEE1F90CC62003CEE14 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8929FED1F90CC2A003CEE14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D84276371F95D1B200124F5D /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8929FEE1F90CC62003CEE14 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D8929FBE1F90CC08003CEE14 /* Main.storyboard */,
+				D8929FC61F90CC08003CEE14 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8929FBD1F90CC08003CEE14 /* ViewController.swift in Sources */,
+				D84276381F95D1B200124F5D /* LoginViewController.swift in Sources */,
 				D8929FC31F90CC08003CEE14 /* DemoApp.xcdatamodeld in Sources */,
 				D8929FBB1F90CC08003CEE14 /* AppDelegate.swift in Sources */,
 			);

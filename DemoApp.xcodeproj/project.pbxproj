@@ -15,6 +15,7 @@
 		D8929FC81F90CC08003CEE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8929FC61F90CC08003CEE14 /* LaunchScreen.storyboard */; };
 		D8929FD31F90CC08003CEE14 /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8929FD21F90CC08003CEE14 /* DemoAppTests.swift */; };
 		D8929FDE1F90CC08003CEE14 /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8929FDD1F90CC08003CEE14 /* DemoAppUITests.swift */; };
+		D8BC98251F9998CA00CAC054 /* Extensions_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC98241F9998CA00CAC054 /* Extensions_UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D8929FD91F90CC08003CEE14 /* DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8929FDD1F90CC08003CEE14 /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 		D8929FDF1F90CC08003CEE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BC98241F9998CA00CAC054 /* Extensions_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions_UI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D8929FB91F90CC08003CEE14 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D8BC98231F9998B900CAC054 /* Utility */,
 				D8929FEB1F90CC17003CEE14 /* Models */,
 				D8929FEC1F90CC22003CEE14 /* Views */,
 				D8929FED1F90CC2A003CEE14 /* Controllers */,
@@ -158,6 +161,14 @@
 				D8929FC61F90CC08003CEE14 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D8BC98231F9998B900CAC054 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC98241F9998CA00CAC054 /* Extensions_UI.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 				D84276381F95D1B200124F5D /* LoginViewController.swift in Sources */,
 				D8929FC31F90CC08003CEE14 /* DemoApp.xcdatamodeld in Sources */,
 				D8929FBB1F90CC08003CEE14 /* AppDelegate.swift in Sources */,
+				D8BC98251F9998CA00CAC054 /* Extensions_UI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

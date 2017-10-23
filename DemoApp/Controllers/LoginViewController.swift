@@ -15,12 +15,27 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var underlineCenter: NSLayoutConstraint!
     
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var signUpButton: UIButton!
+    @IBOutlet weak var submitButtonTop: NSLayoutConstraint!
+    
+    @IBOutlet weak var submitButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        adjustConstraints()
+        
+    }
+    
+    func adjustConstraints() {
+         // submitButtonTop.constant = 0.4 * self.view.bounds.height
+        
+//        let signUpViewBottom = signUpView.frame.origin.y + signUpView.bounds.height
         
     }
     
